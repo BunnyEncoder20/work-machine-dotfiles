@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# Need the gitignore file itself
+!.gitignore
+
+# Allow these specific folders
+!hypr/
+!waybar/
+!kitty/
+!nvim/
+
+# Allow all files within those directories, recursively
+!hypr/**
+!kitty/**
+!nvim/**
+!waybar/**
+
+# Ignore sensitive files or heavy caches within those folders
+**/.terraform/
+**/node_modules/
