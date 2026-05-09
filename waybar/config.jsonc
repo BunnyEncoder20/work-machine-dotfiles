@@ -86,8 +86,7 @@
       "(.*)[Cc]ode(.*)": " | 󰨞 Code",
 
       // 5. Media & Tools
-      "(.*)VLC(.*)": "󰕼 VLC Media Player",
-      "(.*)vlc(.*)": "󰕼 VLC Media Player",
+      "(.*)vlc(.*)": " | 󰕼 VLC",
 
       // 5. Clean up the Catch-all
       "(.+) \\| (.+)": "$1",
