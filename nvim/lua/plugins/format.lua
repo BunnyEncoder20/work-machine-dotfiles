@@ -7,6 +7,9 @@ return {
         -- Tell conform that exit code 1 is a valid success state!
         exit_codes = { 0, 1 },
       },
+      prettier = {
+        prepend_args = { "--tab-width", "4" },
+      },
     },
     formatters_by_ft = {
       sql = { "sqlfluff" },
