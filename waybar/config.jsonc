@@ -61,11 +61,16 @@
             "(.*)Bruno(.*)": " | 󰩃 Bruno ",
             "(.*)Excalidraw(.*)": " | 󱦹 Excalidraw ",
             "(.*)Eraser(.*)": " | 󰇟 Eraser.io ",
+            "(.*)GitHub(.*)": " |  GitHub ",
+            "(.*)Monkeytype(.*)": " | 󰌌 Monkeytype ",
+            "(.*)ZType(.*)": " | 󰬇 ZType ",
+            "(.*)Home / X(.*)": " |  .com ",
 
             // 2. Editors & CLI (Check for these before the terminal they run in)
             "(.*)NVIM(.*)": " |  LazyVim ",
             "(.*)tmux(.*)": " |  Tmux ",
             "(.*)lazygit(.*)": " | 󰊢 LazyGit ",
+            "(.*)lazydocker(.*)": " |  LazyDocker ",
             "(.*) | code": " | 󰨞 $1 ",
 
             // 3. Browsers (General catch-all for Brave)
@@ -80,10 +85,11 @@
             "(.*)VLC(.*)": " | 󰕼 VLC ",
             "(.*)btop": " | 󰨇 btop ",
             "(.*Discord)...(.*).. (.*)": " |  $2 ",
-            "(.*) \\| org.gnome.Nautilus": " | 󰣆 $1 ",
             "(.*Steam)...(.*)": " |  $1 ",
             "(.*imv)...(.*).. (.*)": " |  $2 ",
             "(.*)Vial(.*)": " |  Vial ",
+            "(.*)Calculator(.*)": " |  Calculator ",
+            "(.*)LocalSend(.*)": " | 󱥸 LocalSend ",
 
             // 6. Handle empty/default case
             "^$": " |   Desktop ",
