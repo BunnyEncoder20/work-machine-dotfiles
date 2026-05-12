@@ -9,12 +9,14 @@
 !waybar/
 !kitty/
 !nvim/
+!ghostty/
 
 # Allow all files within those directories, recursively
 !hypr/**
 !kitty/**
 !nvim/**
 !waybar/**
+!ghostty/**
 
 # Ignore sensitive files or heavy caches within those folders
 **/.terraform/

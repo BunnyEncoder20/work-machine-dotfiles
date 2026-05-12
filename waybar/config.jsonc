@@ -79,7 +79,7 @@
 
             // 4. Terminals
             "(.*)kitty": " | 󰄛 Kitty ",
-            "(.*)ghostty": " | 󰊠 Ghostty ",
+            "(.*) | com.mitchellh.ghostty": " | 󰊠 Ghostty ",
 
             // 5. System Tools
             "(.*)VLC(.*)": " | 󰕼 VLC ",
@@ -93,6 +93,9 @@
 
             // 6. Handle empty/default case
             "^$": " |   Desktop ",
+
+            // 7. Handle the Omarchy update terminal
+            "(.*)Omarchy(.*)": " | <span font='omarchy'>\ue900</span> Omarchy",
 
             // Replace the literal home path with ~
             "^~/(.*)": " | 󰊠 󰜥/$1 ",

@@ -1,0 +1,54 @@
+# Dynamic theme colors
+config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+
+# Font
+font-family = "MonaspiceNe Nerd Font"
+font-family-bold = "MonaspiceXe Nerd Font"
+font-family-italic = "MonaspiceXe Nerd Font"
+font-style-italic = "Regular"
+font-family-bold-italic = "MonaspiceKr Nerd Font"
+font-style-bold-italic = "Bold"
+font-synthetic-style = false
+
+# Enables standard ligatures and Monaspace's "Texture Healing"
+font-feature = ["calt", "liga", "dlig", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08"]
+
+# Window
+window-padding-x = 2
+window-padding-y = 2
+confirm-close-surface=false
+resize-overlay = never
+
+background-opacity = 0.0
+background-blur-radius = 20
+background-image = /home/varun/Pictures/terminal_wallpapers/5.0.png
+background-image-fit = stretch
+background-image-opacity = 1
+
+# Cursor styling
+# cursor-color = #94e8e3
+cursor-color = #FF4D4D
+cursor-style = "block"
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# Keyboard bindings
+keybind = f11=toggle_fullscreen
+keybind = shift+insert=paste_from_clipboard
+keybind = control+insert=copy_to_clipboard
+keybind = super+control+shift+alt+arrow_down=resize_split:down,100
+keybind = super+control+shift+alt+arrow_up=resize_split:up,100
+keybind = super+control+shift+alt+arrow_left=resize_split:left,100
+keybind = super+control+shift+alt+arrow_right=resize_split:right,100
+
+# Slowdown mouse scrolling
+# mouse-scroll-multiplier = 0.95
+
+# Shaders
+# custom-shader = ./shaders/in-game-crt-cursor.glsl
+custom-shader = ./shaders/cursor_blaze.glsl
+
+
+# Fix general slowness on hyprland (https://github.com/ghostty-org/ghostty/discussions/3224)
+async-backend = epoll
+
