@@ -93,6 +93,7 @@
             "(.*)Vial(.*)": " |  Vial ",
             "(.*)Calculator(.*)": " |  Calculator ",
             "(.*)LocalSend(.*)": " | 󱥸 LocalSend ",
+            "(.*)Kdenlive(.*)": " |  Kedenlive ",
 
             // 8. Handling Specific File Types
             "(.*).pdf(.*)": " |  $1",
@@ -101,7 +102,7 @@
             "^$": " |   Desktop ",
 
             // 7. Handle the Omarchy update terminal
-            "(.*)Omarchy(.*)": " | <span font='omarchy'>\ue900</span> Omarchy",
+            "(.*)Omarchy(.*)": " | <span font='omarchy'>\ue900</span> Omarchy ",
 
             // Replace the literal home path with ~
             "^~/(.*)": " | 󰊠 󰜥/$1 ",
